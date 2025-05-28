@@ -1,15 +1,19 @@
-# Project Overview
+# Multi-Calendar Property Management Automation System
 
-This is a project integrated reservation data from multiple PMS(Uplisting,Hosyaway) into RDS, and sync information into Connecteam
+An automated cleaning scheduling system that integrates reservation data from multiple Property Management Systems ([Uplisting](https://www.uplisting.io), [Hostaway](https://www.hostaway.com)) into Amazon RDS and synchronizes with [Connecteam](https://connecteam.com) for workforce management. This solution eliminates manual data entry, processes 10,000+ records per sync cycle, and reduces the workload equivalent of 5 full-time employees.
 
-## Initiative
+## Problem Statement
 
-The company should provide cleaning services to property when the guest leave, but they should check reservation information(time of leaving, property information, notes) from varous property management platform dashboard, e.g. uplisting:
-![](https://p.ipic.vip/xmbuvc.png)
-and put it into Connecteam for cleaning job scheduling **manually**:
-![](https://p.ipic.vip/wk4rdl.png)
+Cleaning company needs to schedule cleaning services after guest checkouts, but this process requires manually checking reservation data across multiple PMS platforms ([Uplisting](https://www.uplisting.io), [Hostaway](https://www.hostaway.com)) and then manually creating cleaning jobs in [Connecteam](https://connecteam.com) workforce management system.
 
-They want to automate this process, as well as have a dashboard like which in PMS to view the reservation information.
+**Manual Process Issues:**
+
+- Staff must log into multiple PMS dashboards to check checkout times and property details
+- Manual data entry into Connecteam for each cleaning job
+- Time-consuming and error-prone process
+- Requires 5+ people to manage the workload
+
+**Business Need:** Automate the entire workflow and provide a unified dashboard for reservation management.
 
 ### Solution
 
@@ -31,7 +35,7 @@ Here is the roadmap of this process(Backend Logic):
 
 The process successfully process over 10,000 records per sync cycle, reduced up to 5 people's workload.
 
-This is the datshboard, with different colors indicating different reservation status:
+Here is the datshboard, with different colors indicating different reservation status:
 ![](https://p.ipic.vip/2jp8b0.png)
 They can also get the details of property by clicking property at left sidebar:
 ![](https://p.ipic.vip/1kc9u4.png)
