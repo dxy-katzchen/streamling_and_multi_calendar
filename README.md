@@ -93,6 +93,10 @@ And reservation details:
 - **Logging**: Built-in ASP.NET Core logging with custom middleware
 - **Error Handling**: Global exception filters
 
-## Databse structure
+## Database Structure
 
 ![](https://p.ipic.vip/a2u00b.png)
+
+## Disclaimer
+
+This repository is a sanitized version of a private production system originally deployed with a complete CI/CD pipeline. All credentials, API keys, and sensitive data have been anonymized for security purposes. This project represents my own work and does not contain any proprietary intellectual property.
