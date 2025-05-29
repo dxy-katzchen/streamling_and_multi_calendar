@@ -8,7 +8,8 @@ Cleaning company needs to schedule cleaning services after guest checkouts, but 
 
 **Manual Process Issues:**
 
-- Staff must log into multiple PMS dashboards to check checkout times and property details
+- Staff must log into multiple PMS dashboards to check checkout times and property details(e.g. Uplisting)
+  ![](https://p.ipic.vip/xmbuvc.png)
 - Manual data entry into Connecteam for each cleaning job
 - Time-consuming and error-prone process
 - Requires 5+ people to manage the workload
@@ -25,6 +26,7 @@ I designed this process which can batch fetch the reservation from 1 year ago an
    ![](https://p.ipic.vip/ohdat8.png)
 4. Compare the filtered reservation with the reservation info in the database, reflecting in frontend multicalendar
 5. Handle deleting, updating, and adding, update the database, and send updated information to connecteam
+   ![](https://p.ipic.vip/wk4rdl.png)
 
 The sync cycle will be done in every 10 minutes.
 
