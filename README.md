@@ -24,7 +24,7 @@ I designed this process which can batch fetch the reservation from 1 year ago an
 2. Fetch the reservation information for each property
 3. Fetch the reservation for each property, filter the reservation info by its state(each reservation have different state, they may transer to each other, and some not block the calendar, e.g. query)
    ![](https://p.ipic.vip/ohdat8.png)
-4. Compare the filtered reservation with the reservation info in the database, reflecting in frontend multicalendar
+4. Compare the filtered reservation with the reservation info in the database, handling adding, updating and deleting, reflecting in frontend multicalendar
 5. Handle deleting, updating, and adding, update the database, and send updated information to connecteam
    ![](https://p.ipic.vip/wk4rdl.png)
 
